@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    font-family: century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+html,
+body{
+    height: auto;
+    background-color: #ffffff
+}
+
+navbar h1{
+    text-align:center;
+}
+
+.btn-shop{
+    float: left;
+    margin: auto;
+    margin-left: 10%;
+    padding: 7px 45px 7px 45px;
+    font-weight: bold;
+    border: none;
+}
+
+.product-card-one,
+.product-card-two,
+.product-card-three{
+    width: 290px;
+    height: 320px;
+    box-shadow: 5px 4px 10px 0px rgba(0,0,0,0.45);
+}
+.product-card-one{
+    background-color: #5de1d9;
+}
+.product-card-two{
+    background-color: green;
+}
+.product-card-three{
+    background-color: blue;
+}
+
+.product-header-text{
+    background-color: #8b8686;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+}
+
+.product-card-one>button>span,
+.product-card-two>button>span,
+.product-card-three>button>span{
+    font-size: 12px;
+}
+
+.page-footer{
+    background-color: #5de1d9;
+    height: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}

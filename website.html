@@ -8,6 +8,7 @@
     
     <!-- Links -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./Public/Styles/custom-styles.css">
     <!-- Links -->
     <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -55,28 +56,43 @@
     <!-- Product Container -->
     <div>
         <!-- Product 1-->
-        <div>
-            <p>Fortisure Shoes</p>
+        <div class='product-card-one'>
+            <p class='product-header-text'>Fortisure 
+                <span style='color: #9f1224;'>Shirt</span></p>
             <img src=''>
             <p>The best shoes around</p>
-            <button>Add to Cart | $64.99 </button>
+            <button class='btn btn-success'>Add to Cart | $64.99 </button>
         </div><br>
-        <div>
-            <p>Fortisure Shirt</p>
+        <div class='product-card-two'>
+            <p class='product-header-text'>Fortisure 
+                <span style='color: #9f1224;'>Shirt</span></p>
             <img src=''>
             <p>The best shoes around</p>
-            <button>Add to Cart | $64.99 </button>
+            <button class='btn btn-success'>Add to Cart | $64.99 </button>
         </div><br>
-        <div>
-            <p>Fortisure Shoes</p>
+        <div class='product-card-three'>
+            <p class='product-header-text'>Fortisure 
+                <span style='color: #9f1224;'>Shoes</span></p>
             <img src=''>
             <p>The best shoes around</p>
-            <button>Add to Cart | $64.99 </button>
+            <button class='btn btn-success'>Add to Cart | $64.99 </button>
         </div><br>
     </div>
     <hr>
     <div>
-        <center><button>Contact Us</button></center>
+        <center><button class='btn btn-success'>Contact Us</button></center>
     </div>
 </body>
 </html>
+<!-- Footer -->
+<div>
+    <form>
+        <label>Full Name:</label><br>
+        <input type='text' class='form-control' placeholder="John Smith">
+        <label>Email:</label><br>
+        <input type='email' class='form-control' placeholder="example@email.com">
+        <label>How can we help?</label><br>
+        <textarea type='textarea' class='form-control' placeholder="John Smith"></textarea>
+        <input type='submit' class='btn btn-primary' value="ContactUs">
+    </form>
+</div>
