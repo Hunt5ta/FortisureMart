@@ -1,14 +1,50 @@
 *{
     box-sizing: border-box;
-    font-family: century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family: 'Segoe UI','Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
+
 
 html,
 body{
     height: auto;
-    background-color: #ffffff
+    background-color: #ffffff;
+    margin: 0;
 }
 
+.page-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto
+}
+.navbar-grid{
+    grid-row: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    position: sticky;
+    background-color: blue;
+    top: 0
+}
+
+.our-info-grid{
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: 1fr 38%;
+    grid-template-rows;
+    font-weight: bold;
+    border-bottom: 1px solid gray;
+}
+.info-text-left{
+    grid-column: 1;
+    padding: 25px 5% 25px 5%;
+}
+.info-text-right{
+    grid-column: 2;
+    text-align: center;
+    border-left: 1px solid gray;
+    padding: 60px 60px 5%;
+    height: 100%;
+}
 navbar h1{
     text-align:center;
 }
@@ -21,7 +57,13 @@ navbar h1{
     font-weight: bold;
     border: none;
 }
-
+.trending-container-grid{
+    grid-row: 3;
+    display: grid;
+    grid-template-columns: 38% 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    border-bottom: 1px solid gray;
+}
 .product-card-one,
 .product-card-two,
 .product-card-three{

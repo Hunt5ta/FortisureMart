@@ -16,18 +16,17 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <!-- Scripts -->
 <style>
-    *{
-        font-family: 'Segoe UI','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
-    body{
-        margin: 0;
-    }
+
 </style>
     <title>Document</title>
 
 </head>
 <body>
-    <div style = 'background-color: #5de1d9; position: sticky;top: 0;'>
+    
+    <div class='page-grid'>
+        <div class='navbar-grid'>
+    </div>
+    <div style = 'grid-column: 2; background-color: #5de1d9; position: sticky;top: 0;'>
        <h1 style = 'text-align: center;
        color: #3b3a6d;
        font-weight: bold;
@@ -37,25 +36,26 @@
        padding-top: 15px;'>Fortisure<span style='color: #9f1224;'>Mart</span></h1>
         <hr>
         <button class= 'btn btn-primary'>Shop</button>
-        <img src='./Public/Images/10-512.png' width = '50' height = '50'>
+        <img style='grid-column: 3;margin: auto;margin-right: 15%;'src='./Public/Images/10-512.png' width = '50' height = '50'>
         
-    </div>
+    </div class='our-info-grid'>
+        <div class='info-text-left'>
     <h2>Reasons to Choose FortisureMart</h2>
     <ul>
         <li>Provides quality goods at affordable prices</li>
         <li>We internally train our employees so they are the highest quality</li>
         <li>we use the latest technologies to surpass the competition</li>
     </ul>
-    <div>
+    <div class='info-text-right'>
         <center><h2>Mission Statement:</h2></center>
         <p>To build a nationally respected market place that utilized the latest 
             technologies to add great value to our customers</p>
     </div>
-    <hr>
+    
     <h2>Trending Products</h2>
     <!-- Product Container -->
-    <div>
-        <!-- Product 1-->
+    <div class = 'trending-container-grid'>
+<!-- Product 1-->
         <div class='product-card-one'>
             <p class='product-header-text'>Fortisure 
                 <span style='color: #9f1224;'>Shirt</span></p>
@@ -63,6 +63,7 @@
             <p>The best shoes around</p>
             <button class='btn btn-success'>Add to Cart | $64.99 </button>
         </div><br>
+<!-- Product 2 -->
         <div class='product-card-two'>
             <p class='product-header-text'>Fortisure 
                 <span style='color: #9f1224;'>Shirt</span></p>
@@ -82,17 +83,18 @@
     <div>
         <center><button class='btn btn-success'>Contact Us</button></center>
     </div>
+
+<!-- Footer -->
+    <div>
+        <form>
+            <label>Full Name:</label><br>
+            <input type='text' class='form-control' placeholder="John Smith">
+            <label>Email:</label><br>
+            <input type='email' class='form-control' placeholder="example@email.com">
+            <label>How can we help?</label><br>
+            <textarea type='textarea' class='form-control' placeholder="John Smith"></textarea>
+            <input type='submit' class='btn btn-primary' value="ContactUs">
+        </form>
+    </div>
 </body>
 </html>
-<!-- Footer -->
-<div>
-    <form>
-        <label>Full Name:</label><br>
-        <input type='text' class='form-control' placeholder="John Smith">
-        <label>Email:</label><br>
-        <input type='email' class='form-control' placeholder="example@email.com">
-        <label>How can we help?</label><br>
-        <textarea type='textarea' class='form-control' placeholder="John Smith"></textarea>
-        <input type='submit' class='btn btn-primary' value="ContactUs">
-    </form>
-</div>
